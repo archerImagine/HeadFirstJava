@@ -1,0 +1,518 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>/home/ubuntu/myGithubTutorials/javaEclipse/HeadFirstJava/src/head/first/java/chapter17/.Readme.md.html</title>
+
+
+<style type="text/css">
+body {
+	color: #333;
+	font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif;
+}
+
+.markdown-body {
+    border: 1px solid #CACACA;
+    padding: 30px;
+    font-size: 15px;
+    line-height: 1.7;
+    word-wrap: break-word;
+}
+.markdown-body > *:first-child {
+    margin-top: 0 !important;
+}
+.markdown-body > *:last-child {
+    margin-bottom: 0 !important;
+}
+.markdown-body a.absent {
+    color: #C00;
+}
+.markdown-body a.anchor {
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    left: 0;
+    margin-left: -30px;
+    padding-left: 30px;
+    padding-right: 6px;
+    position: absolute;
+    top: 0;
+}
+.markdown-body a.anchor:focus {
+    outline: medium none;
+}
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+    cursor: text;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 1em 0 15px;
+    padding: 0;
+    position: relative;
+}
+
+.markdown-body h1 .octicon-link, .markdown-body h2 .octicon-link, .markdown-body h3 .octicon-link, .markdown-body h4 .octicon-link, .markdown-body h5 .octicon-link, .markdown-body h6 .octicon-link {
+    color: #000;
+    display: none;
+}
+.markdown-body h1:hover a.anchor, .markdown-body h2:hover a.anchor, .markdown-body h3:hover a.anchor, .markdown-body h4:hover a.anchor, .markdown-body h5:hover a.anchor, .markdown-body h6:hover a.anchor {
+    line-height: 1;
+    margin-left: -22px;
+    padding-left: 0;
+    text-decoration: none;
+    top: 15%;
+}
+.markdown-body h1:hover a.anchor .octicon-link, .markdown-body h2:hover a.anchor .octicon-link, .markdown-body h3:hover a.anchor .octicon-link, .markdown-body h4:hover a.anchor .octicon-link, .markdown-body h5:hover a.anchor .octicon-link, .markdown-body h6:hover a.anchor .octicon-link {
+    display: inline-block;
+}
+.markdown-body h1 tt, .markdown-body h1 code, .markdown-body h2 tt, .markdown-body h2 code, .markdown-body h3 tt, .markdown-body h3 code, .markdown-body h4 tt, .markdown-body h4 code, .markdown-body h5 tt, .markdown-body h5 code, .markdown-body h6 tt, .markdown-body h6 code {
+    font-size: inherit;
+}
+.markdown-body h1 {
+    border-bottom: 1px solid #DDD;
+    font-size: 2.5em;
+}
+.markdown-body h2 {
+    border-bottom: 1px solid #EEE;
+    font-size: 2em;
+}
+.markdown-body h3 {
+    font-size: 1.5em;
+}
+.markdown-body h4 {
+    font-size: 1.2em;
+}
+.markdown-body h5 {
+    font-size: 1em;
+}
+.markdown-body h6 {
+    color: #777;
+    font-size: 1em;
+}
+.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-body ol, .markdown-body dl, .markdown-body table, .markdown-body pre {
+    margin: 15px 0;
+}
+.markdown-body ul, .markdown-body ol {
+    padding-left: 30px;
+}
+.markdown-body ul.no-list, .markdown-body ol.no-list {
+    list-style-type: none;
+    padding: 0;
+}
+.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown-body ol ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.markdown-body dl {
+    padding: 0;
+}
+.markdown-body dl dt {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 0;
+}
+.markdown-body dl dd {
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+.markdown-body blockquote {
+    border-left: 4px solid #DDD;
+    color: #777;
+    padding: 0 15px;
+}
+.markdown-body blockquote > *:first-child {
+    margin-top: 0;
+}
+.markdown-body blockquote > *:last-child {
+    margin-bottom: 0;
+}
+.markdown-body table {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.markdown-body table th {
+    font-weight: bold;
+}
+.markdown-body table th, .markdown-body table td {
+    border: 1px solid #DDD;
+    padding: 6px 13px;
+}
+.markdown-body table tr {
+    background-color: #FFF;
+    border-top: 1px solid #CCC;
+}
+.markdown-body table tr:nth-child(2n) {
+    background-color: #F8F8F8;
+}
+.markdown-body img {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 0px;
+}
+.markdown-body span.frame {
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.frame > span {
+    border: 1px solid #DDD;
+    display: block;
+    float: left;
+    margin: 13px 0 0;
+    overflow: hidden;
+    padding: 7px;
+    width: auto;
+}
+.markdown-body span.frame span img {
+    display: block;
+    float: left;
+}
+.markdown-body span.frame span span {
+    clear: both;
+    color: #333;
+    display: block;
+    padding: 5px 0 0;
+}
+.markdown-body span.align-center {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.align-center > span {
+    display: block;
+    margin: 13px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+.markdown-body span.align-center span img {
+    margin: 0 auto;
+    text-align: center;
+}
+.markdown-body span.align-right {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.align-right > span {
+    display: block;
+    margin: 13px 0 0;
+    overflow: hidden;
+    text-align: right;
+}
+.markdown-body span.align-right span img {
+    margin: 0;
+    text-align: right;
+}
+.markdown-body span.float-left {
+    display: block;
+    float: left;
+    margin-right: 13px;
+    overflow: hidden;
+}
+.markdown-body span.float-left span {
+    margin: 13px 0 0;
+}
+.markdown-body span.float-right {
+    display: block;
+    float: right;
+    margin-left: 13px;
+    overflow: hidden;
+}
+.markdown-body span.float-right > span {
+    display: block;
+    margin: 13px auto 0;
+    overflow: hidden;
+    text-align: right;
+}
+.markdown-body code, .markdown-body tt {
+    background-color: #F8F8F8;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    margin: 0 2px;
+    padding: 0 5px;
+}
+.markdown-body code {
+    white-space: nowrap;
+}
+.markdown-body pre > code {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+}
+.markdown-body .highlight pre, .markdown-body pre {
+    background-color: #F8F8F8;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+}
+.markdown-body pre code, .markdown-body pre tt {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    word-wrap: normal;
+}
+
+pre, code, tt {
+    font-family: Consolas,"Liberation Mono",Courier,monospace;
+    font-size: 12px;
+}
+
+.highlight {
+    background: #FFF;
+}
+.highlight .k,
+.highlight .o,
+.highlight .cp,
+.highlight .cs,
+.highlight .gs,
+.highlight .gu,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt,
+.highlight .nc,
+.highlight .ne,
+.highlight .nf,
+.highlight .ow {
+    font-weight: bold;
+}
+.highlight .gd,
+.highlight .gd .x,
+.highlight .gi,
+.highlight .gi .x,
+.type-csharp .highlight .nf,
+.type-csharp .highlight .nn {
+    color: #000;
+}
+.highlight .c,
+.highlight .cm,
+.highlight .c1 {
+    color: #998;
+    font-style: italic;
+}
+.highlight .err {
+    background-color: #E3D2D2;
+    color: #A61717;
+}
+.highlight .cp,
+.highlight .cs {
+    color: #999;
+}
+.highlight .cs,
+.highlight .ge {
+    font-style: italic;
+}
+.highlight .gd {
+    background-color: #FDD;
+}
+.highlight .gd .x {
+    background-color: #FAA;
+}
+.highlight .gr,
+.highlight .gt {
+    color: #A00;
+}
+.highlight .gh {
+    color: #999;
+}
+.highlight .gi {
+    background-color: #DFD;
+}
+.highlight .gi .x {
+    background-color: #AFA;
+}
+.highlight .go {
+    color: #888;
+}
+.highlight .gp,
+.highlight .nn {
+    color: #555;
+}
+.highlight .gu,
+.highlight .ni {
+    color: #800080;
+}
+.highlight .kt {
+    color: #458;
+}
+.highlight .m {
+    color: #099;
+}
+.highlight .s {
+    color: #D14;
+}
+.highlight .n {
+    color: #333;
+}
+.highlight .na,
+.highlight .no,
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+    color: #008080;
+}
+.highlight .nb {
+    color: #0086B3;
+}
+.highlight .nc {
+    color: #458;
+}
+.highlight .ne,
+.highlight .nf {
+    color: #900;
+}
+.highlight .nt {
+    color: #000080;
+}
+.highlight .w {
+    color: #BBB;
+}
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo {
+    color: #099;
+}
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .s1 {
+    color: #D14;
+}
+.highlight .sr {
+    color: #009926;
+}
+.highlight .ss {
+    color: #990073;
+}
+.highlight .bp {
+    color: #999;
+}
+.highlight .il {
+    color: #099;
+}
+.highlight .gc {
+    background-color: #EAF2F5;
+    color: #999;
+}
+.type-csharp .highlight .k,
+.type-csharp .highlight .kt {
+    color: #00F;
+}
+.type-csharp .highlight .nf {
+    font-weight: normal;
+}
+.type-csharp .highlight .nc {
+    color: #2B91AF;
+}
+.type-csharp .highlight .s,
+.type-csharp .highlight .sc {
+    color: #A31515;
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+function getDocumentScrollTop() 
+{
+   var res = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset || 0;
+   // alert(res);
+   return res;
+}
+
+function setDocumentScrollTop(ypos) 
+{
+	window.scrollTo(0, ypos);
+}
+
+</script>
+
+
+</head>
+<body class="markdown-body">
+<h1> <a name="head-first-java-chapter-17" class="anchor" href="..md.html#head-first-java-chapter-17"><span class="octicon octicon-link"></span></a>Head First Java Chapter 17</h1> 
+<p>This is the Seventeenth Chapter learning of <strong>Head First Java</strong> by <strong>Kathy Sierra</strong> and <strong>Bert Bates</strong>, This markdown file is my notes for the Seventeenth chapter, not sure if any copyright issues are there.</p> 
+<h2> <a name="package-jars-and-deployment" class="anchor" href="..md.html#package-jars-and-deployment"><span class="octicon octicon-link"></span></a>Package, jars and deployment</h2> 
+<h3> <a name="jar" class="anchor" href="..md.html#jar"><span class="octicon octicon-link"></span></a>JAR</h3> 
+<ul> 
+ <li>Organize your project so that your source code and class files are not in the same directory.</li> 
+ <li>A standard organization structure is to create a <em>project</em> directory, and then put a <em>source</em> directory and a <em>classes</em> directory inside the project directory.</li> 
+ <li>Organizing your classes into packages prevents naming collisions with other classes, if you prepend your reverse domain name on to the front of a class name.</li> 
+ <li>To put a class in a package, put a package statement at the top of the source code file, before import statements.</li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="kn">package</span> <span class="n">com</span><span class="o">.</span><span class="na">wickedlysmart</span><span class="o">;</span>
+</pre>
+</div> 
+<ul> 
+ <li>To be in a package, a class must be in a <em>directory structure that exactly matches the package structure</em>. For a class, com.wickedlysmart.Foo, the Foo Class must be in a directory name wickedlysmart, which is in a directory name com.</li> 
+ <li>To make your compiled class land in the correct package directory structure under the <em>classes</em> directory, use the <strong>-d</strong> compiler flag:</li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="o">%</span> <span class="n">cd</span> <span class="n">sources</span>
+<span class="o">%</span> <span class="n">javac</span> <span class="o">-</span><span class="n">d</span> <span class="o">../</span><span class="n">classes</span> <span class="n">com</span><span class="o">/</span><span class="n">wickedlysmart</span><span class="o">/</span><span class="n">Foo</span><span class="o">.</span><span class="na">java</span>
+</pre>
+</div> 
+<ul> 
+ <li>To run your code, cd to the classes directory, and give the fully-qualified name of your class.</li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="o">%</span> <span class="n">cd</span> <span class="n">classes</span>
+<span class="o">%</span> <span class="n">java</span> <span class="n">com</span><span class="o">.</span><span class="na">wickedlysmart</span><span class="o">.</span><span class="na">Foo</span>
+</pre>
+</div> 
+<ul> 
+ <li>You can bundle your classes into JAR(Java ARchive) files. JAR is based on the pkzip format.</li> 
+ <li>You can make an executable JAR file by putting a manifest into the JAR that states which class has the main() method. To create a manifest file, make a text file with an entry like the following (for example):</li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="n">Main</span><span class="o">-</span><span class="nl">Class:</span> <span class="n">com</span><span class="o">.</span><span class="na">wickedlysmart</span><span class="o">.</span><span class="na">Foo</span>
+</pre>
+</div> 
+<ul> 
+ <li>Be sure to hit the return key after typing the Main-Class line, or your manifest may not work.</li> 
+ <li>To create a JAR file, types:</li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="n">jar</span> <span class="o">-</span><span class="n">cvfm</span> <span class="n">manifest</span><span class="o">.</span><span class="na">txt</span> <span class="n">MrJar</span><span class="o">.</span><span class="na">jar</span> <span class="n">com</span>
+</pre>
+</div> 
+<ul> 
+ <li>The entire package directory structure (and only the directories matching the package) must be immediately inside the JAR file.</li> 
+ <li>To run an executable JAR file, type:</li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="n">java</span> <span class="o">-</span><span class="n">jar</span> <span class="n">MyJar</span><span class="o">.</span><span class="na">jar</span>
+</pre>
+</div> 
+<h3> <a name="java-web-start" class="anchor" href="..md.html#java-web-start"><span class="octicon octicon-link"></span></a>Java Web Start</h3> 
+<ul> 
+ <li>Java Web Start technology lets you deploy a stand-alone client application for the web.</li> 
+ <li>Java Web Start includes a 'helper app' that must be installed on the client (along with java).</li> 
+ <li>A Java Web Start (JWS) app has two pieces: and executable JAR and a .jnlp file.</li> 
+ <li>A .jnlp file is a simple XML document that describes your JWS application. It includes tags for specifying the name and location of the JAR, and the name of the class with the main() method.</li> 
+ <li>When a browser gets a .jnlp file from the server (because the user clicked on a link to the .jnlp file), the browser start up the JWS helper app.</li> 
+ <li>The JWS helper app reads the .jnlp file and request the executable JAR from the Web server.</li> 
+ <li>When the JWS gets the JAR, it invokes the main() method (specified in the .jnpl file).</li> 
+</ul>
+</body>
+</html>

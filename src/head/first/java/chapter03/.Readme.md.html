@@ -1,0 +1,566 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>/home/ubuntu/myGithubTutorials/javaEclipse/HeadFirstJava/src/head/first/java/chapter03/.Readme.md.html</title>
+
+
+<style type="text/css">
+body {
+	color: #333;
+	font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif;
+}
+
+.markdown-body {
+    border: 1px solid #CACACA;
+    padding: 30px;
+    font-size: 15px;
+    line-height: 1.7;
+    word-wrap: break-word;
+}
+.markdown-body > *:first-child {
+    margin-top: 0 !important;
+}
+.markdown-body > *:last-child {
+    margin-bottom: 0 !important;
+}
+.markdown-body a.absent {
+    color: #C00;
+}
+.markdown-body a.anchor {
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    left: 0;
+    margin-left: -30px;
+    padding-left: 30px;
+    padding-right: 6px;
+    position: absolute;
+    top: 0;
+}
+.markdown-body a.anchor:focus {
+    outline: medium none;
+}
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+    cursor: text;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 1em 0 15px;
+    padding: 0;
+    position: relative;
+}
+
+.markdown-body h1 .octicon-link, .markdown-body h2 .octicon-link, .markdown-body h3 .octicon-link, .markdown-body h4 .octicon-link, .markdown-body h5 .octicon-link, .markdown-body h6 .octicon-link {
+    color: #000;
+    display: none;
+}
+.markdown-body h1:hover a.anchor, .markdown-body h2:hover a.anchor, .markdown-body h3:hover a.anchor, .markdown-body h4:hover a.anchor, .markdown-body h5:hover a.anchor, .markdown-body h6:hover a.anchor {
+    line-height: 1;
+    margin-left: -22px;
+    padding-left: 0;
+    text-decoration: none;
+    top: 15%;
+}
+.markdown-body h1:hover a.anchor .octicon-link, .markdown-body h2:hover a.anchor .octicon-link, .markdown-body h3:hover a.anchor .octicon-link, .markdown-body h4:hover a.anchor .octicon-link, .markdown-body h5:hover a.anchor .octicon-link, .markdown-body h6:hover a.anchor .octicon-link {
+    display: inline-block;
+}
+.markdown-body h1 tt, .markdown-body h1 code, .markdown-body h2 tt, .markdown-body h2 code, .markdown-body h3 tt, .markdown-body h3 code, .markdown-body h4 tt, .markdown-body h4 code, .markdown-body h5 tt, .markdown-body h5 code, .markdown-body h6 tt, .markdown-body h6 code {
+    font-size: inherit;
+}
+.markdown-body h1 {
+    border-bottom: 1px solid #DDD;
+    font-size: 2.5em;
+}
+.markdown-body h2 {
+    border-bottom: 1px solid #EEE;
+    font-size: 2em;
+}
+.markdown-body h3 {
+    font-size: 1.5em;
+}
+.markdown-body h4 {
+    font-size: 1.2em;
+}
+.markdown-body h5 {
+    font-size: 1em;
+}
+.markdown-body h6 {
+    color: #777;
+    font-size: 1em;
+}
+.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-body ol, .markdown-body dl, .markdown-body table, .markdown-body pre {
+    margin: 15px 0;
+}
+.markdown-body ul, .markdown-body ol {
+    padding-left: 30px;
+}
+.markdown-body ul.no-list, .markdown-body ol.no-list {
+    list-style-type: none;
+    padding: 0;
+}
+.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown-body ol ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.markdown-body dl {
+    padding: 0;
+}
+.markdown-body dl dt {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 0;
+}
+.markdown-body dl dd {
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+.markdown-body blockquote {
+    border-left: 4px solid #DDD;
+    color: #777;
+    padding: 0 15px;
+}
+.markdown-body blockquote > *:first-child {
+    margin-top: 0;
+}
+.markdown-body blockquote > *:last-child {
+    margin-bottom: 0;
+}
+.markdown-body table {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.markdown-body table th {
+    font-weight: bold;
+}
+.markdown-body table th, .markdown-body table td {
+    border: 1px solid #DDD;
+    padding: 6px 13px;
+}
+.markdown-body table tr {
+    background-color: #FFF;
+    border-top: 1px solid #CCC;
+}
+.markdown-body table tr:nth-child(2n) {
+    background-color: #F8F8F8;
+}
+.markdown-body img {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 0px;
+}
+.markdown-body span.frame {
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.frame > span {
+    border: 1px solid #DDD;
+    display: block;
+    float: left;
+    margin: 13px 0 0;
+    overflow: hidden;
+    padding: 7px;
+    width: auto;
+}
+.markdown-body span.frame span img {
+    display: block;
+    float: left;
+}
+.markdown-body span.frame span span {
+    clear: both;
+    color: #333;
+    display: block;
+    padding: 5px 0 0;
+}
+.markdown-body span.align-center {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.align-center > span {
+    display: block;
+    margin: 13px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+.markdown-body span.align-center span img {
+    margin: 0 auto;
+    text-align: center;
+}
+.markdown-body span.align-right {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.align-right > span {
+    display: block;
+    margin: 13px 0 0;
+    overflow: hidden;
+    text-align: right;
+}
+.markdown-body span.align-right span img {
+    margin: 0;
+    text-align: right;
+}
+.markdown-body span.float-left {
+    display: block;
+    float: left;
+    margin-right: 13px;
+    overflow: hidden;
+}
+.markdown-body span.float-left span {
+    margin: 13px 0 0;
+}
+.markdown-body span.float-right {
+    display: block;
+    float: right;
+    margin-left: 13px;
+    overflow: hidden;
+}
+.markdown-body span.float-right > span {
+    display: block;
+    margin: 13px auto 0;
+    overflow: hidden;
+    text-align: right;
+}
+.markdown-body code, .markdown-body tt {
+    background-color: #F8F8F8;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    margin: 0 2px;
+    padding: 0 5px;
+}
+.markdown-body code {
+    white-space: nowrap;
+}
+.markdown-body pre > code {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+}
+.markdown-body .highlight pre, .markdown-body pre {
+    background-color: #F8F8F8;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+}
+.markdown-body pre code, .markdown-body pre tt {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    word-wrap: normal;
+}
+
+pre, code, tt {
+    font-family: Consolas,"Liberation Mono",Courier,monospace;
+    font-size: 12px;
+}
+
+.highlight {
+    background: #FFF;
+}
+.highlight .k,
+.highlight .o,
+.highlight .cp,
+.highlight .cs,
+.highlight .gs,
+.highlight .gu,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt,
+.highlight .nc,
+.highlight .ne,
+.highlight .nf,
+.highlight .ow {
+    font-weight: bold;
+}
+.highlight .gd,
+.highlight .gd .x,
+.highlight .gi,
+.highlight .gi .x,
+.type-csharp .highlight .nf,
+.type-csharp .highlight .nn {
+    color: #000;
+}
+.highlight .c,
+.highlight .cm,
+.highlight .c1 {
+    color: #998;
+    font-style: italic;
+}
+.highlight .err {
+    background-color: #E3D2D2;
+    color: #A61717;
+}
+.highlight .cp,
+.highlight .cs {
+    color: #999;
+}
+.highlight .cs,
+.highlight .ge {
+    font-style: italic;
+}
+.highlight .gd {
+    background-color: #FDD;
+}
+.highlight .gd .x {
+    background-color: #FAA;
+}
+.highlight .gr,
+.highlight .gt {
+    color: #A00;
+}
+.highlight .gh {
+    color: #999;
+}
+.highlight .gi {
+    background-color: #DFD;
+}
+.highlight .gi .x {
+    background-color: #AFA;
+}
+.highlight .go {
+    color: #888;
+}
+.highlight .gp,
+.highlight .nn {
+    color: #555;
+}
+.highlight .gu,
+.highlight .ni {
+    color: #800080;
+}
+.highlight .kt {
+    color: #458;
+}
+.highlight .m {
+    color: #099;
+}
+.highlight .s {
+    color: #D14;
+}
+.highlight .n {
+    color: #333;
+}
+.highlight .na,
+.highlight .no,
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+    color: #008080;
+}
+.highlight .nb {
+    color: #0086B3;
+}
+.highlight .nc {
+    color: #458;
+}
+.highlight .ne,
+.highlight .nf {
+    color: #900;
+}
+.highlight .nt {
+    color: #000080;
+}
+.highlight .w {
+    color: #BBB;
+}
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo {
+    color: #099;
+}
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .s1 {
+    color: #D14;
+}
+.highlight .sr {
+    color: #009926;
+}
+.highlight .ss {
+    color: #990073;
+}
+.highlight .bp {
+    color: #999;
+}
+.highlight .il {
+    color: #099;
+}
+.highlight .gc {
+    background-color: #EAF2F5;
+    color: #999;
+}
+.type-csharp .highlight .k,
+.type-csharp .highlight .kt {
+    color: #00F;
+}
+.type-csharp .highlight .nf {
+    font-weight: normal;
+}
+.type-csharp .highlight .nc {
+    color: #2B91AF;
+}
+.type-csharp .highlight .s,
+.type-csharp .highlight .sc {
+    color: #A31515;
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+function getDocumentScrollTop() 
+{
+   var res = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset || 0;
+   // alert(res);
+   return res;
+}
+
+function setDocumentScrollTop(ypos) 
+{
+	window.scrollTo(0, ypos);
+}
+
+</script>
+
+
+</head>
+<body class="markdown-body">
+<h1> <a name="head-first-java-chapter-03" class="anchor" href="..md.html#head-first-java-chapter-03"><span class="octicon octicon-link"></span></a>Head First Java Chapter 03</h1> 
+<p>This is the third Chapter learning of <strong>Head First Java</strong> by <strong>Kathy Sierra</strong> and <strong>Bert Bates</strong>, This markdown file is my notes for the third chapter, not sure if any copyright issues are there.</p> 
+<h3> <a name="declaring-a-variable" class="anchor" href="..md.html#declaring-a-variable"><span class="octicon octicon-link"></span></a>Declaring a variable</h3> 
+<ul> 
+ <li> <strong>Java cares about type.</strong>, So for this <strong>type safety</strong> to work, you must declare the type of your variable.<br /><strong>Variables</strong> are of two type:<br /> 1 <strong>Primitive</strong><br /> 2 <strong>Object Reference</strong> </li> 
+</ul>
+<p>There is only these two declaration rule.<br /> 1 <strong>variables must have a type.</strong><br /> 2 <strong>variables must have a name.</strong> </p> 
+<h4> <a name="primitive-type" class="anchor" href="..md.html#primitive-type"><span class="octicon octicon-link"></span></a>Primitive Type</h4> 
+<table> 
+ <thead>
+  <tr> 
+   <th>Type</th> 
+   <th align="center">Bit Depth</th> 
+   <th align="center">Value Range</th> 
+  </tr>
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td><strong>boolean</strong></td> 
+   <td align="center">JVM Specific</td> 
+   <td align="center">true/false</td> 
+  </tr> 
+  <tr> 
+   <td><strong>char</strong></td> 
+   <td align="center">16 bits</td> 
+   <td align="center">0 to 65535</td> 
+  </tr> 
+  <tr> 
+   <td><strong>byte</strong></td> 
+   <td align="center">8 bits</td> 
+   <td align="center">-128 to 127</td> 
+  </tr> 
+  <tr> 
+   <td><strong>short</strong></td> 
+   <td align="center">16 bits</td> 
+   <td align="center">-32768 to 32767</td> 
+  </tr> 
+  <tr> 
+   <td><strong>int</strong></td> 
+   <td align="center">32 bits</td> 
+   <td align="center">-2147483648 to 2147483647</td> 
+  </tr> 
+  <tr> 
+   <td><strong>long</strong></td> 
+   <td align="center">64 bits</td> 
+   <td align="center">huge</td> 
+  </tr> 
+  <tr> 
+   <td><strong>float</strong></td> 
+   <td align="center">32 bits</td> 
+   <td align="center">varies</td> 
+  </tr> 
+  <tr> 
+   <td><strong>double</strong></td> 
+   <td align="center">64 bits</td> 
+   <td align="center">varies</td> 
+  </tr> 
+ </tbody> 
+</table>
+<p>There are eight primitive types:<br /><strong>b</strong>oolean <strong>c</strong>har <strong>b</strong>yte <strong>s</strong>hort <strong>i</strong>nt <strong>l</strong>ong <strong>f</strong>loat <strong>d</strong>ouble<br /> you can remember it like,<br /><strong>b</strong>e <strong>c</strong>arefull <strong>b</strong>ears <strong>s</strong>houldn't <strong>i</strong>ngest <strong>l</strong>arge <strong>f</strong>urry <strong>d</strong>og</p> 
+<ul> 
+ <li>You can put a very large value say(long) into a small value(int), without losing information</li> 
+ <li>But you can put small value in a large variable.</li> 
+</ul>
+<h4> <a name="primitive-naming-convention" class="anchor" href="..md.html#primitive-naming-convention"><span class="octicon octicon-link"></span></a>Primitive Naming Convention.</h4> 
+<p>Here is the rules for naming a variables.<br /> 1. <strong>It must start with a letter, underscore(_), or dollar sign ($). You can't start a name with a number.</strong><br /> 2. <strong>After the first character, you can use numbers as well, just don't start it with a number.</strong><br /> 3. <strong>It cannot be from the Java reserved words.</strong> </p> 
+<h4> <a name="object-reference" class="anchor" href="..md.html#object-reference"><span class="octicon octicon-link"></span></a>Object Reference</h4> 
+<ul> 
+ <li>There is actually no such thing as an object variable.<br /> </li> 
+ <li>There's only an object reference variable.</li> 
+ <li>An Object reference variable holds bits that represent a way to access an object.</li> 
+ <li>It doesn't hold the object itself.</li> 
+ <li><strong>Object reference are like Remote Control for actual object.</strong></li> 
+ <li>You cannot do arithmetic on a reference variable.</li> 
+</ul>
+<h4> <a name="array" class="anchor" href="..md.html#array"><span class="octicon octicon-link"></span></a>Array</h4> 
+<ul> 
+ <li>Declare an int array variable, An array variable is a remote control to an array object.</li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="kt">int</span><span class="o">[]</span> <span class="n">nums</span>
+</pre>
+</div> 
+<ul> 
+ <li>Create a new int array with a length of 3.<br /> </li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="n">nums</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">3</span><span class="o">]</span>
+</pre>
+</div> 
+<ul> 
+ <li>Give each element in the array an int value.<br /> </li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="n">nums</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span> <span class="o">=</span> <span class="mi">6</span><span class="o">;</span>
+<span class="n">nums</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span> <span class="o">=</span> <span class="mi">5</span><span class="o">;</span>
+<span class="n">nums</span><span class="o">[</span><span class="mi">2</span><span class="o">]</span> <span class="o">=</span> <span class="mi">4</span><span class="o">;</span>
+</pre>
+</div> 
+<ul> 
+ <li>Arrays are always objects, whether they're declared to hold primitives or object reference.<br /> </li> 
+ <li>Once you've declared an array, you can't put anything in it except things that are of the declared type.<br /> </li> 
+</ul>
+<h2> <a name="bullet-point" class="anchor" href="..md.html#bullet-point"><span class="octicon octicon-link"></span></a>Bullet Point</h2> 
+<ul> 
+ <li>Variables come in two flavors: primitive and reference</li> 
+ <li>Variable must always be declared with a name and a type.</li> 
+ <li>A primitive variable value is the bits representing the value (5, 'a',true, etc)</li> 
+ <li>A reference variable value is the bits representing a way to get to an object on the heap.</li> 
+ <li>A reference variable is like a remote control, using the dot operator (.) on a reference variable is like pressing a button on the remote control to a access a method or instance variable.</li> 
+ <li>A reference variable has a value of <em>null</em> when it is not referencing any object.</li> 
+ <li>An array is always an object, even if the array is declared to hold primitives.<br /> </li> 
+</ul>
+</body>
+</html>

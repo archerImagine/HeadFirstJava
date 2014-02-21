@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>/home/ubuntu/myGithubTutorials/javaEclipse/HeadFirstJava/src/head/first/java/chapter16/.Readme.md.html</title>
+
+
+<style type="text/css">
+body {
+	color: #333;
+	font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif;
+}
+
+.markdown-body {
+    border: 1px solid #CACACA;
+    padding: 30px;
+    font-size: 15px;
+    line-height: 1.7;
+    word-wrap: break-word;
+}
+.markdown-body > *:first-child {
+    margin-top: 0 !important;
+}
+.markdown-body > *:last-child {
+    margin-bottom: 0 !important;
+}
+.markdown-body a.absent {
+    color: #C00;
+}
+.markdown-body a.anchor {
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    left: 0;
+    margin-left: -30px;
+    padding-left: 30px;
+    padding-right: 6px;
+    position: absolute;
+    top: 0;
+}
+.markdown-body a.anchor:focus {
+    outline: medium none;
+}
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+    cursor: text;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 1em 0 15px;
+    padding: 0;
+    position: relative;
+}
+
+.markdown-body h1 .octicon-link, .markdown-body h2 .octicon-link, .markdown-body h3 .octicon-link, .markdown-body h4 .octicon-link, .markdown-body h5 .octicon-link, .markdown-body h6 .octicon-link {
+    color: #000;
+    display: none;
+}
+.markdown-body h1:hover a.anchor, .markdown-body h2:hover a.anchor, .markdown-body h3:hover a.anchor, .markdown-body h4:hover a.anchor, .markdown-body h5:hover a.anchor, .markdown-body h6:hover a.anchor {
+    line-height: 1;
+    margin-left: -22px;
+    padding-left: 0;
+    text-decoration: none;
+    top: 15%;
+}
+.markdown-body h1:hover a.anchor .octicon-link, .markdown-body h2:hover a.anchor .octicon-link, .markdown-body h3:hover a.anchor .octicon-link, .markdown-body h4:hover a.anchor .octicon-link, .markdown-body h5:hover a.anchor .octicon-link, .markdown-body h6:hover a.anchor .octicon-link {
+    display: inline-block;
+}
+.markdown-body h1 tt, .markdown-body h1 code, .markdown-body h2 tt, .markdown-body h2 code, .markdown-body h3 tt, .markdown-body h3 code, .markdown-body h4 tt, .markdown-body h4 code, .markdown-body h5 tt, .markdown-body h5 code, .markdown-body h6 tt, .markdown-body h6 code {
+    font-size: inherit;
+}
+.markdown-body h1 {
+    border-bottom: 1px solid #DDD;
+    font-size: 2.5em;
+}
+.markdown-body h2 {
+    border-bottom: 1px solid #EEE;
+    font-size: 2em;
+}
+.markdown-body h3 {
+    font-size: 1.5em;
+}
+.markdown-body h4 {
+    font-size: 1.2em;
+}
+.markdown-body h5 {
+    font-size: 1em;
+}
+.markdown-body h6 {
+    color: #777;
+    font-size: 1em;
+}
+.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-body ol, .markdown-body dl, .markdown-body table, .markdown-body pre {
+    margin: 15px 0;
+}
+.markdown-body ul, .markdown-body ol {
+    padding-left: 30px;
+}
+.markdown-body ul.no-list, .markdown-body ol.no-list {
+    list-style-type: none;
+    padding: 0;
+}
+.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown-body ol ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.markdown-body dl {
+    padding: 0;
+}
+.markdown-body dl dt {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 0;
+}
+.markdown-body dl dd {
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+.markdown-body blockquote {
+    border-left: 4px solid #DDD;
+    color: #777;
+    padding: 0 15px;
+}
+.markdown-body blockquote > *:first-child {
+    margin-top: 0;
+}
+.markdown-body blockquote > *:last-child {
+    margin-bottom: 0;
+}
+.markdown-body table {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.markdown-body table th {
+    font-weight: bold;
+}
+.markdown-body table th, .markdown-body table td {
+    border: 1px solid #DDD;
+    padding: 6px 13px;
+}
+.markdown-body table tr {
+    background-color: #FFF;
+    border-top: 1px solid #CCC;
+}
+.markdown-body table tr:nth-child(2n) {
+    background-color: #F8F8F8;
+}
+.markdown-body img {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 0px;
+}
+.markdown-body span.frame {
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.frame > span {
+    border: 1px solid #DDD;
+    display: block;
+    float: left;
+    margin: 13px 0 0;
+    overflow: hidden;
+    padding: 7px;
+    width: auto;
+}
+.markdown-body span.frame span img {
+    display: block;
+    float: left;
+}
+.markdown-body span.frame span span {
+    clear: both;
+    color: #333;
+    display: block;
+    padding: 5px 0 0;
+}
+.markdown-body span.align-center {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.align-center > span {
+    display: block;
+    margin: 13px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+.markdown-body span.align-center span img {
+    margin: 0 auto;
+    text-align: center;
+}
+.markdown-body span.align-right {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.align-right > span {
+    display: block;
+    margin: 13px 0 0;
+    overflow: hidden;
+    text-align: right;
+}
+.markdown-body span.align-right span img {
+    margin: 0;
+    text-align: right;
+}
+.markdown-body span.float-left {
+    display: block;
+    float: left;
+    margin-right: 13px;
+    overflow: hidden;
+}
+.markdown-body span.float-left span {
+    margin: 13px 0 0;
+}
+.markdown-body span.float-right {
+    display: block;
+    float: right;
+    margin-left: 13px;
+    overflow: hidden;
+}
+.markdown-body span.float-right > span {
+    display: block;
+    margin: 13px auto 0;
+    overflow: hidden;
+    text-align: right;
+}
+.markdown-body code, .markdown-body tt {
+    background-color: #F8F8F8;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    margin: 0 2px;
+    padding: 0 5px;
+}
+.markdown-body code {
+    white-space: nowrap;
+}
+.markdown-body pre > code {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+}
+.markdown-body .highlight pre, .markdown-body pre {
+    background-color: #F8F8F8;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+}
+.markdown-body pre code, .markdown-body pre tt {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    word-wrap: normal;
+}
+
+pre, code, tt {
+    font-family: Consolas,"Liberation Mono",Courier,monospace;
+    font-size: 12px;
+}
+
+.highlight {
+    background: #FFF;
+}
+.highlight .k,
+.highlight .o,
+.highlight .cp,
+.highlight .cs,
+.highlight .gs,
+.highlight .gu,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt,
+.highlight .nc,
+.highlight .ne,
+.highlight .nf,
+.highlight .ow {
+    font-weight: bold;
+}
+.highlight .gd,
+.highlight .gd .x,
+.highlight .gi,
+.highlight .gi .x,
+.type-csharp .highlight .nf,
+.type-csharp .highlight .nn {
+    color: #000;
+}
+.highlight .c,
+.highlight .cm,
+.highlight .c1 {
+    color: #998;
+    font-style: italic;
+}
+.highlight .err {
+    background-color: #E3D2D2;
+    color: #A61717;
+}
+.highlight .cp,
+.highlight .cs {
+    color: #999;
+}
+.highlight .cs,
+.highlight .ge {
+    font-style: italic;
+}
+.highlight .gd {
+    background-color: #FDD;
+}
+.highlight .gd .x {
+    background-color: #FAA;
+}
+.highlight .gr,
+.highlight .gt {
+    color: #A00;
+}
+.highlight .gh {
+    color: #999;
+}
+.highlight .gi {
+    background-color: #DFD;
+}
+.highlight .gi .x {
+    background-color: #AFA;
+}
+.highlight .go {
+    color: #888;
+}
+.highlight .gp,
+.highlight .nn {
+    color: #555;
+}
+.highlight .gu,
+.highlight .ni {
+    color: #800080;
+}
+.highlight .kt {
+    color: #458;
+}
+.highlight .m {
+    color: #099;
+}
+.highlight .s {
+    color: #D14;
+}
+.highlight .n {
+    color: #333;
+}
+.highlight .na,
+.highlight .no,
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+    color: #008080;
+}
+.highlight .nb {
+    color: #0086B3;
+}
+.highlight .nc {
+    color: #458;
+}
+.highlight .ne,
+.highlight .nf {
+    color: #900;
+}
+.highlight .nt {
+    color: #000080;
+}
+.highlight .w {
+    color: #BBB;
+}
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo {
+    color: #099;
+}
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .s1 {
+    color: #D14;
+}
+.highlight .sr {
+    color: #009926;
+}
+.highlight .ss {
+    color: #990073;
+}
+.highlight .bp {
+    color: #999;
+}
+.highlight .il {
+    color: #099;
+}
+.highlight .gc {
+    background-color: #EAF2F5;
+    color: #999;
+}
+.type-csharp .highlight .k,
+.type-csharp .highlight .kt {
+    color: #00F;
+}
+.type-csharp .highlight .nf {
+    font-weight: normal;
+}
+.type-csharp .highlight .nc {
+    color: #2B91AF;
+}
+.type-csharp .highlight .s,
+.type-csharp .highlight .sc {
+    color: #A31515;
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+function getDocumentScrollTop() 
+{
+   var res = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset || 0;
+   // alert(res);
+   return res;
+}
+
+function setDocumentScrollTop(ypos) 
+{
+	window.scrollTo(0, ypos);
+}
+
+</script>
+
+
+</head>
+<body class="markdown-body">
+<h1> <a name="head-first-java-chapter-16" class="anchor" href="..md.html#head-first-java-chapter-16"><span class="octicon octicon-link"></span></a>Head First Java Chapter 16</h1> 
+<p>This is the Sixteenth Chapter learning of <strong>Head First Java</strong> by <strong>Kathy Sierra</strong> and <strong>Bert Bates</strong>, This markdown file is my notes for the Sixteenth chapter, not sure if any copyright issues are there.</p> 
+<h2> <a name="collections-with-generics" class="anchor" href="..md.html#collections-with-generics"><span class="octicon octicon-link"></span></a>Collections with Generics</h2> 
+<h3> <a name="arraylist" class="anchor" href="..md.html#arraylist"><span class="octicon octicon-link"></span></a>ArrayList</h3> 
+<ul> 
+ <li>ArrayList does not have a sort method.</li> 
+ <li>ArrayList is not the only Collection 
+  <ul> 
+   <li> <strong>TreeSet</strong> : Keeps the elements sorted and prevents duplicates.</li> 
+   <li> <strong>HashMap</strong> : Store and Access elements as name/value pairs.</li> 
+   <li> <strong>LinkedList</strong> : Gives better performance when you insert or delete elements from middle.</li> 
+   <li> <strong>HashSet</strong> : Prevents duplicates in the collection, and given an element, can find that element quickly.</li> 
+   <li> <strong>LinkedHashMap</strong> : It remembers the order in which elements were inserted in addition to HashMap.</li> 
+  </ul> </li> 
+ <li>To get the sort functionality from ArrayList we can change it to a TreeSet 
+  <ul> 
+   <li> <strong>BUT</strong> TreeSet might be more expensive. Every insert into a TreeSet requires hugh time to figure out where it should reside.</li> 
+  </ul> </li> 
+</ul>
+<h3> <a name="sort" class="anchor" href="..md.html#sort"><span class="octicon octicon-link"></span></a>sort()</h3> 
+<div class="highlight highlight-java">
+ <pre>    <span class="kd">static</span> <span class="o">&lt;</span><span class="n">T</span> <span class="kd">extends</span> <span class="n">Comparable</span><span class="o">&lt;?</span> <span class="kd">super</span> <span class="n">T</span><span class="o">&gt;&gt;</span> <span class="kt">void</span>   <span class="n">sort</span><span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">list</span><span class="o">)</span>
+</pre>
+</div> 
+<ul> 
+ <li>Sorts the specified list into ascending order, according to the natural ordering of its elements.</li> 
+ <li>The sort method declaration looks little strange. Because the Collection framework make heavy use of <em>generics</em>.</li> 
+</ul>
+<h3> <a name="generics" class="anchor" href="..md.html#generics"><span class="octicon octicon-link"></span></a>Generics</h3> 
+<ul> 
+ <li>Generics means more type-safety.</li> 
+ <li>With generics, you can create type-safe collections where more problems are caught at compile-time instead of runtime.</li> 
+ <li>Without generics, the compiler would happily let you put a Pumpkin into an ArrayList that was supposed to hold only Cat Objects.</li> 
+ <li>Three things are of importance while dealing with generics. 
+  <ul> 
+   <li>Create instances of generified classes (like ArrayList)</li> 
+  </ul> 
+  <div class="highlight highlight-java">
+   <pre>  <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">Song</span><span class="o">&gt;();</span>
+</pre>
+  </div> 
+  <ul> 
+   <li>Declaring and assigning variables of generic types.</li> 
+  </ul> 
+  <div class="highlight highlight-java">
+   <pre>  <span class="n">List</span><span class="o">&lt;</span><span class="n">Song</span><span class="o">&gt;</span> <span class="n">songList</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">Song</span><span class="o">&gt;();</span>
+</pre>
+  </div> 
+  <ul> 
+   <li>Declaring (and invoking) methods that take generic types.</li> 
+  </ul> 
+  <div class="highlight highlight-java">
+   <pre>  <span class="kt">void</span> <span class="nf">foo</span><span class="o">(</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Song</span><span class="o">&gt;</span> <span class="n">list</span><span class="o">);</span>
+  <span class="n">x</span><span class="o">.</span><span class="na">foo</span><span class="o">(</span><span class="n">songList</span><span class="o">);</span>
+</pre>
+  </div> </li> 
+</ul>
+<h3> <a name="generic-classes" class="anchor" href="..md.html#generic-classes"><span class="octicon octicon-link"></span></a>Generic Classes</h3> 
+<div class="highlight highlight-java">
+ <pre>    <span class="kd">public</span> <span class="kd">class</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="n">E</span><span class="o">&gt;</span>
+    <span class="kd">extends</span> <span class="n">AbstractList</span><span class="o">&lt;</span><span class="n">E</span><span class="o">&gt;</span>
+    <span class="kd">implements</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">E</span><span class="o">&gt;,</span> <span class="n">RandomAccess</span><span class="o">,</span> <span class="n">Cloneable</span><span class="o">,</span> <span class="n">Serializable</span>  
+</pre>
+</div> 
+<ul> 
+ <li>Think of 'E' as a stand-in for &quot;the type of element you want this collection to hold and return.&quot;</li> 
+</ul>
+<h3> <a name="generic-methods" class="anchor" href="..md.html#generic-methods"><span class="octicon octicon-link"></span></a>Generic Methods.</h3> 
+<ul> 
+ <li> <p>A generic method means that the method declaration uses a type parameter in its signature. It is used in this manner.</p> 
+  <ul> 
+   <li>Using the type parameter defined in the class declaration.</li> 
+  </ul> 
+  <div class="highlight highlight-java">
+   <pre>  <span class="kd">public</span> <span class="kd">class</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="n">E</span><span class="o">&gt;</span> <span class="kd">extends</span> <span class="n">AbstractList</span><span class="o">&lt;</span><span class="n">E</span><span class="o">&gt;{</span>
+      <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">add</span><span class="o">(</span><span class="n">E</span> <span class="n">o</span><span class="o">);</span>
+  <span class="o">}</span>
+</pre>
+  </div> 
+  <ul> 
+   <li>Using a type parameter that was NOT defined in the class definition.</li> 
+  </ul> 
+  <div class="highlight highlight-java">
+   <pre>  <span class="kd">public</span> <span class="o">&lt;</span><span class="n">T</span> <span class="kd">extends</span> <span class="n">Animal</span><span class="o">&gt;</span> <span class="kt">void</span> <span class="n">takeThing</span><span class="o">(</span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">list</span><span class="o">);</span>
+
+</pre>
+  </div> </li> 
+ <li>Difference between the below Code sample.</li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre>    <span class="kd">public</span> <span class="o">&lt;</span><span class="n">T</span> <span class="kd">extends</span> <span class="n">Animal</span><span class="o">&gt;</span> <span class="kt">void</span> <span class="n">takeThing</span><span class="o">(</span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">list</span><span class="o">);</span>
+</pre>
+</div> 
+<ul> 
+ <li>This one where <strong></strong> is part of the method declaration, means that any ArrayList declared of a type that is Animal, or one of Animal's sub type is legal.<br /><strong>AND</strong> </li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre>    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">takeThing</span><span class="o">(</span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">Animal</span><span class="o">&gt;</span> <span class="n">list</span><span class="o">);</span>
+</pre>
+</div> 
+<ul> 
+ <li>This method argument means that only an <strong>ArrayList</strong> is legal and not sub type. 
+  <ul> 
+   <li>If you declare a method to take ArrayList it can only take an ArrayList, not ArrayList.</li> 
+   <li>Array types are checked again at runtime, but collection type checks happens only when you compile. ### Genrics Implement and Extends</li> 
+   <li>In generics, the keywords &quot;extends&quot; really means &quot;is-a&quot; and works for BOTH classes and interfaces.</li> 
+  </ul> </li> 
+</ul>
+<h3> <a name="collection-api" class="anchor" href="..md.html#collection-api"><span class="octicon octicon-link"></span></a>Collection API.</h3> 
+<ul> 
+ <li>There are three main interfaces, <strong>List</strong>,<strong>Set</strong>, and <strong>Map</strong>. 
+  <ol> 
+   <li> <strong>LIST</strong> : <strong>Where sequence matters.</strong> </li> 
+   <li> <strong>SET</strong> : <strong>Where uniqueness matters.</strong> </li> 
+   <li> <strong>MAP</strong> : <strong>Where finding something by key matters.</strong> 
+    <ol> 
+     <li>Map interface doesn't actually extend the Collection interface. #### Object Equality</li> 
+    </ol> </li> 
+  </ol> </li> 
+ <li>There are two type of Equality. 
+  <ol> 
+   <li>Reference Equality 
+    <ul> 
+     <li>Two reference, one object on the heap.</li> 
+     <li>If you call <strong>hashCode()</strong> method on both reference, you'll get same result.</li> 
+    </ul> </li> 
+   <li>Object Equality. 
+    <ul> 
+     <li>Two reference, two objects on the heap, but the objects are considered meaningfully equivalent.</li> 
+     <li>We must override the <strong>hashCode()</strong> and <strong>equals()</strong> methods.</li> 
+    </ul> </li> 
+  </ol> </li> 
+</ul>
+<h3> <a name="hashset" class="anchor" href="..md.html#hashset"><span class="octicon octicon-link"></span></a>HashSet</h3> 
+<ul> 
+ <li>A HashSet checks the hasCodes, if they are different the object are assumed to be different.</li> 
+</ul>
+<h3> <a name="treeset" class="anchor" href="..md.html#treeset"><span class="octicon octicon-link"></span></a>TreeSet</h3> 
+<ul> 
+ <li>A TreeSet is similar to HashSet in that it prevents duplicates, and it also keeps the list sorted.</li> 
+ <li>To use a TreeSet, one of these things must be true. 
+  <ul> 
+   <li>The element in the list must be of a type that implements <strong>Comparable</strong>.<br /><strong>OR</strong><br /> </li> 
+   <li>You use the TreeSet's overloaded constructor that takes a Comparator.<br /> </li> 
+  </ul> </li> 
+</ul>
+<h3> <a name="map" class="anchor" href="..md.html#map"><span class="octicon octicon-link"></span></a>Map</h3> 
+<ul> 
+ <li>Each element in a Map is actually TWO Objects - a <em>key</em> and a <em>value</em>. You can have duplicate values, but NOT Duplicate keys.<br /> </li> 
+</ul>
+<h3> <a name="generic-wildcards" class="anchor" href="..md.html#generic-wildcards"><span class="octicon octicon-link"></span></a>Generic WildCards</h3> 
+<ul> 
+ <li>There is a way a method argument that can accept an ArrayList of any Animal sub type.</li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="kd">public</span> <span class="kt">void</span> <span class="nf">takeAnimal</span><span class="o">(</span><span class="n">ArrayList</span> <span class="o">&lt;?</span> <span class="kd">extends</span> <span class="n">Animal</span><span class="o">&gt;</span> <span class="n">animals</span><span class="o">){</span>
+    <span class="k">for</span> <span class="o">(</span><span class="n">Animal</span> <span class="n">animal</span> <span class="o">:</span> <span class="n">animals</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">animal</span><span class="o">.</span><span class="na">eat</span><span class="o">();</span>
+        <span class="o">}</span>
+<span class="o">}</span>
+</pre>
+</div> 
+<p><strong>OR</strong></p> 
+<div class="highlight highlight-java">
+ <pre><span class="kd">public</span> <span class="o">&lt;</span><span class="n">T</span> <span class="kd">extends</span> <span class="n">Animal</span><span class="o">&gt;</span><span class="kt">void</span> <span class="n">takeAnimal</span><span class="o">(</span><span class="n">ArrayList</span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">animals</span><span class="o">){</span>
+    <span class="k">for</span> <span class="o">(</span><span class="n">Animal</span> <span class="n">animal</span> <span class="o">:</span> <span class="n">animals</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">animal</span><span class="o">.</span><span class="na">eat</span><span class="o">();</span>
+        <span class="o">}</span>
+<span class="o">}</span>
+</pre>
+</div> 
+<ul> 
+ <li>When you use a wild card in you method argument, the compiler will STOP you from doing anything that could hurt the list referenced by the method parameters.</li> 
+ <li>You can still invoke methods on the elements in the list, but you cannot add elements to the list.</li> 
+ <li>In other words, you can do things with the list elements, but you cannot put new things in the list.</li> 
+</ul>
+</body>
+</html>

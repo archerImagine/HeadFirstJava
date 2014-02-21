@@ -1,0 +1,565 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>/home/ubuntu/myGithubTutorials/javaEclipse/HeadFirstJava/src/head/first/java/chapter11/.Readme.md.html</title>
+
+
+<style type="text/css">
+body {
+	color: #333;
+	font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif;
+}
+
+.markdown-body {
+    border: 1px solid #CACACA;
+    padding: 30px;
+    font-size: 15px;
+    line-height: 1.7;
+    word-wrap: break-word;
+}
+.markdown-body > *:first-child {
+    margin-top: 0 !important;
+}
+.markdown-body > *:last-child {
+    margin-bottom: 0 !important;
+}
+.markdown-body a.absent {
+    color: #C00;
+}
+.markdown-body a.anchor {
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    left: 0;
+    margin-left: -30px;
+    padding-left: 30px;
+    padding-right: 6px;
+    position: absolute;
+    top: 0;
+}
+.markdown-body a.anchor:focus {
+    outline: medium none;
+}
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+    cursor: text;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 1em 0 15px;
+    padding: 0;
+    position: relative;
+}
+
+.markdown-body h1 .octicon-link, .markdown-body h2 .octicon-link, .markdown-body h3 .octicon-link, .markdown-body h4 .octicon-link, .markdown-body h5 .octicon-link, .markdown-body h6 .octicon-link {
+    color: #000;
+    display: none;
+}
+.markdown-body h1:hover a.anchor, .markdown-body h2:hover a.anchor, .markdown-body h3:hover a.anchor, .markdown-body h4:hover a.anchor, .markdown-body h5:hover a.anchor, .markdown-body h6:hover a.anchor {
+    line-height: 1;
+    margin-left: -22px;
+    padding-left: 0;
+    text-decoration: none;
+    top: 15%;
+}
+.markdown-body h1:hover a.anchor .octicon-link, .markdown-body h2:hover a.anchor .octicon-link, .markdown-body h3:hover a.anchor .octicon-link, .markdown-body h4:hover a.anchor .octicon-link, .markdown-body h5:hover a.anchor .octicon-link, .markdown-body h6:hover a.anchor .octicon-link {
+    display: inline-block;
+}
+.markdown-body h1 tt, .markdown-body h1 code, .markdown-body h2 tt, .markdown-body h2 code, .markdown-body h3 tt, .markdown-body h3 code, .markdown-body h4 tt, .markdown-body h4 code, .markdown-body h5 tt, .markdown-body h5 code, .markdown-body h6 tt, .markdown-body h6 code {
+    font-size: inherit;
+}
+.markdown-body h1 {
+    border-bottom: 1px solid #DDD;
+    font-size: 2.5em;
+}
+.markdown-body h2 {
+    border-bottom: 1px solid #EEE;
+    font-size: 2em;
+}
+.markdown-body h3 {
+    font-size: 1.5em;
+}
+.markdown-body h4 {
+    font-size: 1.2em;
+}
+.markdown-body h5 {
+    font-size: 1em;
+}
+.markdown-body h6 {
+    color: #777;
+    font-size: 1em;
+}
+.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-body ol, .markdown-body dl, .markdown-body table, .markdown-body pre {
+    margin: 15px 0;
+}
+.markdown-body ul, .markdown-body ol {
+    padding-left: 30px;
+}
+.markdown-body ul.no-list, .markdown-body ol.no-list {
+    list-style-type: none;
+    padding: 0;
+}
+.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown-body ol ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.markdown-body dl {
+    padding: 0;
+}
+.markdown-body dl dt {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 0;
+}
+.markdown-body dl dd {
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+.markdown-body blockquote {
+    border-left: 4px solid #DDD;
+    color: #777;
+    padding: 0 15px;
+}
+.markdown-body blockquote > *:first-child {
+    margin-top: 0;
+}
+.markdown-body blockquote > *:last-child {
+    margin-bottom: 0;
+}
+.markdown-body table {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.markdown-body table th {
+    font-weight: bold;
+}
+.markdown-body table th, .markdown-body table td {
+    border: 1px solid #DDD;
+    padding: 6px 13px;
+}
+.markdown-body table tr {
+    background-color: #FFF;
+    border-top: 1px solid #CCC;
+}
+.markdown-body table tr:nth-child(2n) {
+    background-color: #F8F8F8;
+}
+.markdown-body img {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 0px;
+}
+.markdown-body span.frame {
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.frame > span {
+    border: 1px solid #DDD;
+    display: block;
+    float: left;
+    margin: 13px 0 0;
+    overflow: hidden;
+    padding: 7px;
+    width: auto;
+}
+.markdown-body span.frame span img {
+    display: block;
+    float: left;
+}
+.markdown-body span.frame span span {
+    clear: both;
+    color: #333;
+    display: block;
+    padding: 5px 0 0;
+}
+.markdown-body span.align-center {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.align-center > span {
+    display: block;
+    margin: 13px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+.markdown-body span.align-center span img {
+    margin: 0 auto;
+    text-align: center;
+}
+.markdown-body span.align-right {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.markdown-body span.align-right > span {
+    display: block;
+    margin: 13px 0 0;
+    overflow: hidden;
+    text-align: right;
+}
+.markdown-body span.align-right span img {
+    margin: 0;
+    text-align: right;
+}
+.markdown-body span.float-left {
+    display: block;
+    float: left;
+    margin-right: 13px;
+    overflow: hidden;
+}
+.markdown-body span.float-left span {
+    margin: 13px 0 0;
+}
+.markdown-body span.float-right {
+    display: block;
+    float: right;
+    margin-left: 13px;
+    overflow: hidden;
+}
+.markdown-body span.float-right > span {
+    display: block;
+    margin: 13px auto 0;
+    overflow: hidden;
+    text-align: right;
+}
+.markdown-body code, .markdown-body tt {
+    background-color: #F8F8F8;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    margin: 0 2px;
+    padding: 0 5px;
+}
+.markdown-body code {
+    white-space: nowrap;
+}
+.markdown-body pre > code {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+}
+.markdown-body .highlight pre, .markdown-body pre {
+    background-color: #F8F8F8;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+}
+.markdown-body pre code, .markdown-body pre tt {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    word-wrap: normal;
+}
+
+pre, code, tt {
+    font-family: Consolas,"Liberation Mono",Courier,monospace;
+    font-size: 12px;
+}
+
+.highlight {
+    background: #FFF;
+}
+.highlight .k,
+.highlight .o,
+.highlight .cp,
+.highlight .cs,
+.highlight .gs,
+.highlight .gu,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt,
+.highlight .nc,
+.highlight .ne,
+.highlight .nf,
+.highlight .ow {
+    font-weight: bold;
+}
+.highlight .gd,
+.highlight .gd .x,
+.highlight .gi,
+.highlight .gi .x,
+.type-csharp .highlight .nf,
+.type-csharp .highlight .nn {
+    color: #000;
+}
+.highlight .c,
+.highlight .cm,
+.highlight .c1 {
+    color: #998;
+    font-style: italic;
+}
+.highlight .err {
+    background-color: #E3D2D2;
+    color: #A61717;
+}
+.highlight .cp,
+.highlight .cs {
+    color: #999;
+}
+.highlight .cs,
+.highlight .ge {
+    font-style: italic;
+}
+.highlight .gd {
+    background-color: #FDD;
+}
+.highlight .gd .x {
+    background-color: #FAA;
+}
+.highlight .gr,
+.highlight .gt {
+    color: #A00;
+}
+.highlight .gh {
+    color: #999;
+}
+.highlight .gi {
+    background-color: #DFD;
+}
+.highlight .gi .x {
+    background-color: #AFA;
+}
+.highlight .go {
+    color: #888;
+}
+.highlight .gp,
+.highlight .nn {
+    color: #555;
+}
+.highlight .gu,
+.highlight .ni {
+    color: #800080;
+}
+.highlight .kt {
+    color: #458;
+}
+.highlight .m {
+    color: #099;
+}
+.highlight .s {
+    color: #D14;
+}
+.highlight .n {
+    color: #333;
+}
+.highlight .na,
+.highlight .no,
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+    color: #008080;
+}
+.highlight .nb {
+    color: #0086B3;
+}
+.highlight .nc {
+    color: #458;
+}
+.highlight .ne,
+.highlight .nf {
+    color: #900;
+}
+.highlight .nt {
+    color: #000080;
+}
+.highlight .w {
+    color: #BBB;
+}
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo {
+    color: #099;
+}
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .s1 {
+    color: #D14;
+}
+.highlight .sr {
+    color: #009926;
+}
+.highlight .ss {
+    color: #990073;
+}
+.highlight .bp {
+    color: #999;
+}
+.highlight .il {
+    color: #099;
+}
+.highlight .gc {
+    background-color: #EAF2F5;
+    color: #999;
+}
+.type-csharp .highlight .k,
+.type-csharp .highlight .kt {
+    color: #00F;
+}
+.type-csharp .highlight .nf {
+    font-weight: normal;
+}
+.type-csharp .highlight .nc {
+    color: #2B91AF;
+}
+.type-csharp .highlight .s,
+.type-csharp .highlight .sc {
+    color: #A31515;
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+function getDocumentScrollTop() 
+{
+   var res = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset || 0;
+   // alert(res);
+   return res;
+}
+
+function setDocumentScrollTop(ypos) 
+{
+	window.scrollTo(0, ypos);
+}
+
+</script>
+
+
+</head>
+<body class="markdown-body">
+<h1> <a name="head-first-java-chapter-11" class="anchor" href="..md.html#head-first-java-chapter-11"><span class="octicon octicon-link"></span></a>Head First Java Chapter 11</h1> 
+<p>This is the eleventh Chapter learning of <strong>Head First Java</strong> by <strong>Kathy Sierra</strong> and <strong>Bert Bates</strong>, This markdown file is my notes for the eleventh chapter, not sure if any copyright issues are there.</p> 
+<h2> <a name="bullet-points" class="anchor" href="..md.html#bullet-points"><span class="octicon octicon-link"></span></a>BULLET POINTS</h2> 
+<ul> 
+ <li>A method can throw an exception when something fails at runtime.</li> 
+ <li>An exception is always an object of type Exception.</li> 
+ <li>The compiler does NOT pay attention to exceptions that are of type <strong>RuntimeException</strong>. A RuntimeException does not have to be declared or wrapped in a try/catch.</li> 
+ <li>All Exceptions the compiler cares about are called <strong>checked exceptions</strong> which really means compiler-checked exceptions.</li> 
+ <li>A method throws an exception with the keywords <strong>throw</strong>, followed by a new exception object.</li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="k">throw</span> <span class="k">new</span> <span class="nf">NoCaffeineException</span><span class="o">();</span>
+
+</pre>
+</div> 
+<ul> 
+ <li>Methods that might throw a checked exception must announce it with a throws Exception declarations.</li> 
+ <li>If your code calls a checked-exception-throwing method, it must reassure the compiler that precautions have been taken.</li> 
+ <li>If you're prepared to handle the exception, wrap the call in a try/catch, and put your exception handling/recovery code in the catch block.</li> 
+ <li>If you're not prepared to handle the exception, you can still make the compiler happy by officially 'ducking' the exception.</li> 
+</ul>
+<h3> <a name="flow-control-in-trycatch-block" class="anchor" href="..md.html#flow-control-in-trycatch-block"><span class="octicon octicon-link"></span></a>Flow Control in try/catch block.</h3> 
+<p>Take the example of the below code.</p> 
+<div class="highlight highlight-java">
+ <pre><span class="k">try</span><span class="o">{</span>
+    <span class="n">Foo</span> <span class="n">f</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="na">doRiskyThing</span><span class="o">();</span>
+    <span class="kt">int</span> <span class="n">b</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="na">getNum</span><span class="o">();</span>
+<span class="o">}</span><span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">e</span><span class="o">){</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Failed.&quot;</span><span class="o">);</span>
+<span class="o">}</span>
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;We made it.&quot;</span><span class="o">);</span>
+</pre>
+</div> 
+<p>If the try SUCCEEDS, the Catch block is not executed, and Last Sysout is printed. If the Try fails, the rest of the try block never runs, and both the Sysout is printed.</p> 
+<h3> <a name="finally" class="anchor" href="..md.html#finally"><span class="octicon octicon-link"></span></a>Finally</h3> 
+<p>A finally block is where you put code that must run regardless of an exception.</p> 
+<div class="highlight highlight-java">
+ <pre><span class="k">try</span><span class="o">{</span>
+    <span class="n">turnOvenOn</span><span class="o">();</span>
+    <span class="n">x</span><span class="o">.</span><span class="na">bake</span><span class="o">();</span>
+<span class="o">}</span><span class="k">catch</span> <span class="o">(</span><span class="n">BakingException</span> <span class="n">ex</span><span class="o">){</span>
+    <span class="n">ex</span><span class="o">.</span><span class="na">printStacktrace</span><span class="o">();</span>
+<span class="o">}</span><span class="k">finally</span><span class="o">{</span>
+    <span class="n">turnOvenOff</span><span class="o">();</span>
+<span class="o">}</span>
+</pre>
+</div> 
+<p>A finally block lets you put all your import cleanup code in one place instead of duplicating it. If the try or catch block has a return statement, finally will still run.</p> 
+<h3> <a name="multiple-exception" class="anchor" href="..md.html#multiple-exception"><span class="octicon octicon-link"></span></a>Multiple Exception.</h3> 
+<p>If a code throws multiple exceptions. </p> 
+<ul> 
+ <li>The catch block should be stacked one after the other. And the order of stacking is also important.</li> 
+ <li>Exceptions can be referred to polymorphically.</li> 
+ <li>You don't have to write a catch for each possible exception as long as the catch you have can handle any exception thrown. 
+  <ol> 
+   <li>You can declare exceptions using a supertype of the exception you throw.</li> 
+   <li>You can CATCH exceptions using a super type of the exception thrown.</li> 
+   <li>Just because you CAN catch everything with one big super polymorphic catch, doesn't mean always you should.</li> 
+  </ol> </li> 
+ <li>Multiple Catch block must be ordered from smallest to biggest.</li> 
+ <li>You can't put bigger baskets above smaller baskets.</li> 
+ <li>Siblings can be in any order, because they can't catch one another's exceptions.</li> 
+ <li>If you don't want to handle the exception in you code, declare the same exception in you code this is called DUCKING.</li> 
+</ul>
+<h3> <a name="exception-rules" class="anchor" href="..md.html#exception-rules"><span class="octicon octicon-link"></span></a>Exception Rules</h3> 
+<ul> 
+ <li>You cannot have a catch or finally without a try.</li> 
+</ul>
+<p>The below code is not legal.</p> 
+<div class="highlight highlight-java">
+ <pre>    <span class="kt">void</span> <span class="nf">go</span><span class="o">(){</span>
+        <span class="n">Foo</span> <span class="n">f</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Foo</span><span class="o">();</span>
+        <span class="n">f</span><span class="o">.</span><span class="na">foof</span><span class="o">();</span>
+        <span class="k">catch</span> <span class="o">(</span><span class="n">FooException</span> <span class="n">ex</span><span class="o">){}</span>
+    <span class="o">}</span>
+</pre>
+</div> 
+<ul> 
+ <li>You cannot put code between the try and the catch.</li> 
+</ul>
+<p>The below code is not legal.</p> 
+<div class="highlight highlight-java">
+ <pre><span class="k">try</span><span class="o">{</span>
+    <span class="n">x</span><span class="o">.</span><span class="na">doStuff</span><span class="o">();</span>
+<span class="o">}</span>
+<span class="kt">int</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">43</span><span class="o">;</span>
+<span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="o">){}</span>
+</pre>
+</div> 
+<ul> 
+ <li>A try MUST be followed by either a catch or finally.</li> 
+</ul>
+<p>The below code is legal.</p> 
+<div class="highlight highlight-java">
+ <pre><span class="k">try</span><span class="o">{</span>
+    <span class="n">x</span><span class="o">.</span><span class="na">doStuff</span><span class="o">();</span>
+<span class="o">}</span><span class="k">finally</span><span class="o">{</span>
+    <span class="c1">//CleanUp.</span>
+<span class="o">}</span>
+</pre>
+</div> 
+<ul> 
+ <li>A try with only a finally(no catch) must still declare the exception.</li> 
+</ul>
+<div class="highlight highlight-java">
+ <pre><span class="kt">void</span> <span class="nf">go</span><span class="o">()</span> <span class="kd">throws</span> <span class="n">FooException</span><span class="o">{</span>
+    <span class="k">try</span><span class="o">{</span>
+        <span class="n">x</span><span class="o">.</span><span class="na">doStuff</span><span class="o">();</span>
+    <span class="o">}</span><span class="k">finally</span><span class="o">{}</span>
+<span class="o">}</span>
+</pre>
+</div>
+</body>
+</html>
